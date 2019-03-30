@@ -35,13 +35,12 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#267CB9;
+  color:#ff8888;
   text-decoration:none;
 }
 
 a:hover, a:focus {
-  color:#069;
-  font-weight: bold;
+    border-bottom: solid #ff8888 1px;
 }
 
 a small {

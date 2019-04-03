@@ -1,5 +1,16 @@
 @import "fonts";
 @import "rouge-github";
+.posts li span {
+    font-family: Monaco, "Courier New", monospace;
+}
+
+.posts {
+    list-style: none;
+}
+
+.posts li {
+    line-height: 1.75em;
+}
 
 body {
   background-color: #fff;

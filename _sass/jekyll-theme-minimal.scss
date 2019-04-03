@@ -14,7 +14,10 @@
 
 .home-link {
     font-size: 14px;
-    border: none 
+}
+
+.home-link:hover {
+    border: none;
 }
 body {
   background-color: #fff;

@@ -2,7 +2,8 @@
 @import "rouge-github";
 
 ::-webkit-scrollbar {
-    width: 2pt;
+    width: 2px;
+    height: 2px;
 }
 
 ::-webkit-scrollbar-button {
@@ -22,6 +23,10 @@
 }
 
 .posts li {
+    line-height: 1.75em;
+}
+
+li {
     line-height: 2em;
 }
 
@@ -113,7 +118,7 @@ pre code {
 }
 pre {
   padding:8px 15px;
-  background: #f8f8f8;
+  background: #eaedec;
   overflow-x: auto;
 }
 

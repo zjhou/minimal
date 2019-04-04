@@ -1,5 +1,18 @@
 @import "fonts";
 @import "rouge-github";
+
+::-webkit-scrollbar {
+    width: 2pt;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #d0d0d0;
+}
+
 .posts li span {
     font-family: Monaco, "Courier New", monospace;
 }
@@ -9,7 +22,7 @@
 }
 
 .posts li {
-    line-height: 1.75em;
+    line-height: 2em;
 }
 
 .home-link {

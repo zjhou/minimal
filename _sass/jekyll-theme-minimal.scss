@@ -14,6 +14,14 @@
     background: #d0d0d0;
 }
 
+ol {
+    padding-left: 18px;
+}
+
+li ol {
+    margin-bottom: 0px;
+}
+
 sup a {
     display: inline-block;
     margin: 0 5px;
